@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+
+        android:hint="Calculator"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:background="#FFF0"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:gravity="right"
+        android:textSize="50dp"
+        android:id="@+id/tvOutput"
+
+        />
+    
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="4"
+        android:columnCount="4">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="1"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnOne"
+
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="2"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnTwo"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="3"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnThree"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="+"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnAdd"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="4"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnFour"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="5"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnFive"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="6"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnSix"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="-"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnSubtract"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="7"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnSeven"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="8"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnEight"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="9"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnNine"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="*"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnMultiply"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="C"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnC"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnZero"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="="
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnEqual"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="/"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:textSize="30dp"
+            android:id="@+id/btnDivide"
+            />
+
+    </GridLayout>
+
+   
+
+</LinearLayout>
